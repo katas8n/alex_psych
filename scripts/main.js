@@ -8,31 +8,6 @@ function quizHandler() {
     checkUserAge(askUserAge);
 }
 
-// function quiz(userName) {
-    // askUserName();
-    // console.log(typeof(userName));
-    // console.log(userName);
-
-    // if (typeof(userName) == null || userName == '') {
-    //     alert('Вы не ввели имя');
-    //     askUserName();
-    // }
-    // if (userName === 'Maks') {
-    //     alert('Салам, красавчик');
-    // } else if (userName === 'Kir') {
-    //     alert('ОООО, доброго времени суток');
-    // } else {
-    //     alert(`Здравствуйте, ${userName}`);
-    // }
-    
-    // const userSurname = prompt('Какая у вас фамилия?');
-    // const userAge = prompt('Сколько вам лет?');
-    
-    // if (userAge.includes('23')) {
-    //     alert('Welcome to the club, body');
-    // }
-// }
-
 function askUserName() {
     const userName = prompt('Как вас зовут?');
     return userName;
