@@ -21,3 +21,4 @@ function quiz() {
     }
 }
 
+quizBtn.addEventListener('click', quiz);
