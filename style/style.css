@@ -27,6 +27,7 @@ body {
     background-color: whitesmoke;
     color: black;
     transition: 500ms ease;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -56,4 +57,8 @@ body {
     100% {
         background-color: bisque;
     }
+}
+
+.btn:disabled {
+    background-color: grey;
 }
